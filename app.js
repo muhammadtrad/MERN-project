@@ -33,8 +33,7 @@ res.send("Welcome to this App!!!");
 
 app.use("/api/users", users);
 app.use("/api/tweets", tweets);
-// app.use(bodyParser.urlencoded({ extended: false }));
-// app.use(bodyParser.json());
+
 
 const port = process.env.PORT || 5000;
 
