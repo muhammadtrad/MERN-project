@@ -7,6 +7,7 @@ const users = require("./routes/api/users");
 const tweets = require("./routes/api/tweets");
 const bodyParser = require('body-parser');
 const  User = require("./models/User");
+const path = require('path');
 
 mongoose
   .connect(db, { useNewUrlParser: true })
