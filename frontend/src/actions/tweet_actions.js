@@ -36,3 +36,6 @@ export const composeTweet = data => dispatch => (
         .then(tweet => dispatch(receiveNewTweet(tweet)))
         .catch(err => console.log(err))
 );
+
+
+//look for where tweets.all is created
